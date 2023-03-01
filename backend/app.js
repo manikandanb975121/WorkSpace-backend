@@ -10,7 +10,7 @@ const announcement = require('./routes/Announcement');
 const comments = require('./routes/Comments');
 
 // Development
-mongoose.connect('mongodb+srv://manikandanb:manikandanb@cluster0.brpzn.mongodb.net/myFirstDatabase?retryWrites=true&w=majority', 
+mongoose.connect('mongodb+srv://clixtersin:Rf8nh2yUfe9bmIbL@cluster0.t5mpvio.mongodb.net/?retryWrites=true&w=majority', 
                     { useNewUrlParser: true,  useUnifiedTopology: true }
     ).then(() => {
         console.log('Connected to Database!');
